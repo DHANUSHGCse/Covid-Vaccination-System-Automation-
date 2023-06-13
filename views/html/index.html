@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Vaccination Booking - Log In</title>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <h1>Together, we can overcome. Login and book your vaccination today</h1>
+    <div style="display: flex; margin-top: 0px;">
+        <div style="width:75%">
+            <img  src="../assets/login_page.png"/>
+        </div>
+        <div class="container">
+            <form>
+                <h1>Login - Protect YourSelf</h1>
+                <label>Email Address</label><br>
+                <input type="email" placeholder="Enter Your Email Address" required/><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter Your Password" required/><br>
+                <button type="submit" onclick="validateForm(event)"><b>Login</b></button><br>
+                <h2></h2>
+                <h3 onclick="redirectToRegister()"> Click to Register Here </h3>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

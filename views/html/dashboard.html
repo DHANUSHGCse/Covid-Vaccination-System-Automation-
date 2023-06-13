@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Vaccination Booking - Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css"/>
+    <script src="../js/dashboard.js"></script>
+</head>
+<body>
+    <form id="data">
+        <h1>Admin Panel</h1>
+        <div style="display: flex; justify-content: flex-end;">
+            <button style="margin-right: 5%;" id="logoutButton">Log Out</button>
+          </div>  
+        <input type="text" id="center" placeholder="Enter a Centre Name" required/>
+        <input type="text" id="location" placeholder="Enter a Location" required/>
+        <input type="time" id="fromtime" required/>
+        <input type="time" id="totime" required/>
+        <button type="submit" id="btn">Add</button>
+    </form>
+    <h2></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Centre Name</th>
+                <th>Location</th>
+                <th>Working Hours</th>
+                <th>Dosage Details</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>

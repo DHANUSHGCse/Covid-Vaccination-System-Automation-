@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Vaccination Booking - SignUp</title>
+    <link rel="stylesheet" href="../css/signup.css"/>
+    <script src="../js/signup.js" ></script>
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="width: 75%;">
+            <h1 style="margin-top: 150px;">Take a step towards a safer future</h1>
+            <img src="../assets/signup page.png"/>
+        </div>
+        <div class="container">
+            <form>
+                <h1>Join the fight against COVID-19</h1>
+                <div style="display: flex;">
+                    <input  type="text"  placeholder="Enter a Username"  required/>
+                    <input  type="email"  placeholder="Enter a Email Address"  required/>
+                </div>
+                <div style="display: flex;">
+                    <input  type="password"  placeholder="Enter a Password"  required/>
+                    <input  type="password"  placeholder="Enter a Confirm Password"  required/>
+                </div>
+                <div style="display: flex;">
+                    <input  type="tel"  placeholder="Enter a Mobile Number"  required/>
+                    <input  type="date"  required/>
+                </div>
+                <div style="display: flex;">
+                    <select style="width: 55%;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                  </select>
+                  <input  type="number" placeholder="Enter a Aadhar Number" required/>
+                </div>
+                <h2><!-- Display Error Here--></h2>
+                <button type="submit" onclick="validateForm(event)">SignUp</button>
+                <h3 onclick="work()"> Did you have an Account?</h3>
+            </form>
+        </div>
+    </div>
+    <script>
+        function work(){
+            document.location.href = '/';
+        }
+    </script>
+</body>
+</html>

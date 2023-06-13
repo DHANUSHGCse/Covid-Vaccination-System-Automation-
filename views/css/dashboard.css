@@ -1,0 +1,124 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #F8F6F4;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin: 50px;
+    text-align: center;
+}
+label{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    width: fit-content;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    transition: border-color 0.3s;
+}
+button {
+    background-color: rgb(102,191,191);
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    width: 150px;
+    border: none;
+}
+
+button:hover {
+    border: 0.5px solid;
+    border-color: rgb(102,191,191);
+    background-color: white;
+    color: rgb(102,191,191);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid;
+    border-color: rgb(79,88,165);
+}
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    font-size: 20px;
+    color: #4C4C6D;
+    padding: 20px;
+    background-color: #66BFBF;
+}
+table{
+    margin-left: 5%;
+    width: 90%;
+}
+
+tr:nth-child(odd) {
+    font-size: 20px;
+    color: #4C4C6D;
+    background-color: #E3F4F4; 
+  }
+  tr:nth-child(even) {
+    background-color: #D2E9E9; 
+  }
+  td{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: #4C4C6D;
+    font-size: 20px;
+    padding: 20px;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: #F15A59;
+}
+.custom-checkbox {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  /* Style the checked state of the custom checkbox */
+  .custom-checkbox:checked {
+    background-color: #0f0;
+  }
+/* Styling the select dropdown */
+select {
+    text-align: center;
+    width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Styling the select dropdown when it is focused */
+  select:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  }
+#target{
+        text-align: center;
+        align-items: center;
+}

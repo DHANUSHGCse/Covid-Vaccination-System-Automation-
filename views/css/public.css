@@ -1,0 +1,17 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #F8F6F4;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    align-items: center;
+}
+label{
+    font-size: 40px;
+    font-weight: bold;
+}
