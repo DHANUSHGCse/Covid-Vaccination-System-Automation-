@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       timeRange: timeRange
     };
   
-t
+
     fetch('/admin/dashboard', {
       method: 'POST',
       headers: {
